@@ -16,6 +16,10 @@
         <property name="hbm2ddl.auto">update</property>
         <!-- DB schema will be updated if needed -->
         <!-- <property name="hbm2ddl.auto">update</property> -->
-        <mapping class="cz.cvut.fel.wa2.stankmic.Persons"/>
+        <mapping class="cz.cvut.fel.wa2.stankmic.ukol02.entities.Address"/>
+        <mapping class="cz.cvut.fel.wa2.stankmic.ukol02.entities.Person"/>
+        <mapping class="cz.cvut.fel.wa2.stankmic.ukol02.entities.Car"/>
+        <mapping class="cz.cvut.fel.wa2.stankmic.ukol02.entities.Bus"/>
+        <mapping class="cz.cvut.fel.wa2.stankmic.ukol02.entities.Phone"/>
     </session-factory>
 </hibernate-configuration>
